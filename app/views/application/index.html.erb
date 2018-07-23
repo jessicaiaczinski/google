@@ -1,0 +1,6 @@
+<h1> GOOGLE </h1>
+
+<%= form_tag '/search', method: 'get' do |f| %>
+<%= text_field_tag 'query', '', placeholder: 'Busque aqui' %>
+<%= submit_tag 'Buscar' %>
+<% end %>
